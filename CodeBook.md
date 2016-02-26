@@ -8,7 +8,14 @@ ActivityType - The activity description the data was collected during - valid en
 
 Columns 3-68
 
-The observations used to produce his dataset come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The data is a collection of accelertometer and gyroscope measurments that were then analyzed to produce mean or standard deviation values for each type of motion along each axis of motion. '-X' '-Y' '-Z' is used to denote axial signals in the X, Y and Z directions.
+The observations used to produce his dataset come from the accelerometer and gyroscope 3-axial raw signals 
+tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant 
+rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter 
+with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated 
+into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass 
+Butterworth filter with a corner frequency of 0.3 Hz. The data is a collection of accelertometer and gyroscope 
+measurments that were then analyzed to produce mean or standard deviation values for each type of motion along 
+each axis of motion. '-X' '-Y' '-Z' is used to denote axial signals in the X, Y and Z directions.
 
 mean(): Mean value
 std(): Standard deviation
