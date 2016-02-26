@@ -12,3 +12,4 @@ Contents of this repo:
 
 Readme.md - explanation of script and repo contents
 CodeBook.md - explanation of the data
+Assignment Outpt - Tidy Data Set.txt - a data set containing the average of mean and std() measurements of motion along 3 axis for a variety of activities
