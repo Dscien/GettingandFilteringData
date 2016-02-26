@@ -14,11 +14,12 @@
 
 
 
-#This script downloads and unzips to a UCI HAR Dataset fodler in the current working directory
+#This script assumes the data is already in a "UCI HAR Dataset" directory under the present working directory.  
+#If not, then the user should change the file paths as appropriate or uncomment the download code and download the files
 #
-url<- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url,destfile = "script_data.zip")
-unzip("script_data.zip", list = FALSE, overwrite = TRUE)
+#url<- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download.file(url,destfile = "script_data.zip")
+#unzip("script_data.zip", list = FALSE, overwrite = TRUE)
 
 subject_test<-read.table("UCI HAR Dataset/test/subject_test.txt")
 X_test<-read.table("UCI HAR Dataset/test/X_test.txt")
