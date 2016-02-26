@@ -14,8 +14,7 @@
 
 
 
-#This script assumes the data is already in a "UCI HAR Dataset" directory under the present working directory.  
-#If not, then the user should change the file paths as appropriate or uncomment the download code and download the files
+#This script downloads and unzips to a UCI HAR Dataset fodler in the current working directory
 #
 url<- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url,destfile = "script_data.zip")
